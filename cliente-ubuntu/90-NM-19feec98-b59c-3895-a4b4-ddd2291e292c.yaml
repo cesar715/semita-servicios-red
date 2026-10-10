@@ -1,0 +1,24 @@
+network:
+  version: 2
+  ethernets:
+    NM-19feec98-b59c-3895-a4b4-ddd2291e292c:
+      renderer: NetworkManager
+      match:
+        name: "enp0s8"
+      nameservers:
+        addresses:
+        - 172.16.0.2
+        - fd00:db7:dea:a::2
+      dhcp4: true
+      dhcp6: true
+      wakeonlan: true
+      networkmanager:
+        uuid: "19feec98-b59c-3895-a4b4-ddd2291e292c"
+        name: "Conexión cableada 1"
+        passthrough:
+          connection.autoconnect-priority: "-999"
+          connection.timestamp: "1791510029"
+          ethernet._: ""
+          ipv6.addr-gen-mode: "default"
+          ipv6.ip6-privacy: "-1"
+          proxy._: ""
