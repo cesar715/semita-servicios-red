@@ -1,0 +1,11 @@
+$TTL 86400
+@   IN SOA srv.semita.sv. admin.semita.sv. ( 2023102601 3600 1800 6048000 86400)
+@      IN NS srv.semita.sv.
+
+2.0   IN  PTR srv.semita.sv.
+2.0   IN  PTR www.semita.sv.
+
+21.0  IN  PTR amaya.semita.sv.
+22.0  IN  PTR alfaro.semita.sv.
+23.0  IN  PTR hernandez.semita.sv.
+
