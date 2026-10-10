@@ -14,7 +14,7 @@ Configuraciones del servidor central de red (DNS y DHCP) en fedora server.
 - **Servidor:** 172.16.0.2 / FD00:DB7:DEA.A::2
 - **Dominio:** semita.sv
 
-## 🚀 Guía de Instalación y Despliegue para el Equipo
+## Guía de Instalación y Despliegue para el Equipo
 
 Para desplegar y probar estas configuraciones en las máquinas virtuales de VirtualBox, sigan las instrucciones según el sistema operativo:
 
